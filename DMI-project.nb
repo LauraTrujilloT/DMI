@@ -1,0 +1,287 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9204,        279]
+NotebookOptionsPosition[      8599,        261]
+NotebookOutlinePosition[      8934,        276]
+CellTagsIndexPosition[      8891,        273]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Dzyaloshinskii Moriya Interaction (DMI)", "Section",
+ CellChangeTimes->{{3.758319233785698*^9, 3.758319257370597*^9}, {
+  3.758320193961936*^9, 
+  3.75832019847147*^9}},ExpressionUUID->"0912fa66-821f-4d6c-8ddc-\
+761281741900"],
+
+Cell[TextData[{
+ "From LLGB equation,\n\n\t\t\t\t\t\t\t",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[PartialD]", "t"], "M"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "e0fdd125-9b34-4eda-a577-cb3adb4ebe00"],
+ " = - ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Gamma]", " ", "M", "\[Times]", 
+    SubscriptBox["H", "eff"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "ed16ec38-2b91-412e-9956-e7517f848e1a"],
+ " +  ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["\[Alpha]", 
+    SubscriptBox["M", "o"]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "9333a0dc-b784-43f2-aef6-680ca6ba6e31"],
+ " M \[Times] ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[PartialD]", "t"], "M"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "61e8e9ff-b41c-4608-9f91-4839154d3801"],
+ " + T                                      (1.1)"
+}], "Text",
+ CellChangeTimes->{{3.758319369820414*^9, 3.758319477157917*^9}, {
+  3.758319513265656*^9, 3.758319649564824*^9}, {3.7583196867304773`*^9, 
+  3.758319757318185*^9}, {3.7583201475654507`*^9, 
+  3.758320153008463*^9}},ExpressionUUID->"25c0bef3-8391-4c0f-9181-\
+78e9d5abaee7"],
+
+Cell[TextData[{
+ "This yields to,\n\t\t\n \t\t\t\t\t\t\t\t",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"   ", 
+    SuperscriptBox[
+     OverscriptBox["L", "^"], "\[PlusMinus]"]}], TraditionalForm]], "Input",
+  ExpressionUUID->"bb1f6ad2-b87f-4866-a2d1-8d4c77a4f541"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["m", "\[PlusMinus]"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "0470fdd0-5632-437e-b59e-ea8ef109b754"],
+ " = \[ImaginaryI] ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Omega]", "M"], 
+    SuperscriptBox["h", "\[PlusMinus]"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "931e0ad9-7032-46b4-b4b5-68f65edfd1f1"],
+ "                   (1.2)\n\nWhere,\n\t\t\t     \t\t          ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"   ", 
+    SuperscriptBox[
+     OverscriptBox["L", "^"], "\[PlusMinus]"]}], TraditionalForm]], "Input",
+  ExpressionUUID->"29303cce-5f9e-4e02-9133-e92eacfeae9e"],
+ " = - (1 - \[ImaginaryI]\[Alpha]) ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[PartialD]", "t"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "921699fd-8093-46af-9cf4-27b791ec28dc"],
+ "  - ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[ImaginaryI]\[Omega]", "M"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "560c6e00-3cd6-47e7-84e4-36f86fd6eefd"],
+ "D ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[Del]", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "c6b888e7-6496-4341-912a-729ed0cc0ab7"],
+ " - \[ImaginaryI](c + ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[ImaginaryI]b", ")"}], 
+    SubscriptBox["\[PartialD]", "z"]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "6e31c578-d5c7-46ff-a0ea-bb1db54225fb"],
+ " + ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[ImaginaryI]\[Omega]", "H"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "70cab536-8503-4c20-a86d-88a6fa45e2f7"],
+ "          (1.3)\n\nFor a state without perturbation, magnetization takes \
+the following form,\n\n\t\t\t\t\t\t",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["m", 
+    RowBox[{"(", "0", ")"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "4da4a15a-0241-4cfc-9be0-70aeebe9cbd1"],
+ "(r, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["r", "\[VerticalLine]"], ",", "t"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "648fea9c-79c4-4964-85f1-ae56b3a01fdb"],
+ ") = \[Integral] ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["k", 
+    RowBox[{"3", "D"}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "4f5b9b8f-89f5-4537-8b2a-97b66311e211"],
+ "(r, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["r", "\[VerticalLine]"], ",", "t"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "ed92bc21-5cde-46af-98a0-a973293cdc2d"],
+ " - ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["t", "\[VerticalLine]"], ")"}], " "}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "a29fe7cc-3fbc-4e71-bb29-7ca01f983599"],
+ "h(",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["r", "\[VerticalLine]"], ",", "t"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "1408327d-a708-4bb9-a652-64efd8c9a223"],
+ "') ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["d", "3"], "r", " "}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "15b8f681-18d8-4cf3-8d37-db1a220b68f2"],
+ " d ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["t", "\[VerticalLine]"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "b8e5a58c-1918-4628-a98b-abfca524bf37"],
+ "              (2)\n\nWhere,\n\t\t\t\t\t",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["k", 
+    RowBox[{"3", "D"}]], TraditionalForm]],ExpressionUUID->
+  "389bf8a5-b0bb-4acc-bcfc-23726d339a12"],
+ "(r, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["r", "\[VerticalLine]"], ",", "t"}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "592079b1-2825-4d0f-b888-3d441f0ce25d"],
+ ") = ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    RowBox[{"8", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"\[Pi]", "   ", 
+        SuperscriptBox[
+         SubscriptBox["a", "\[PlusMinus]"], "2"], "   ", "t"}], ")"}], 
+      RowBox[{"3", "/", "2"}]]}]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "2c32515f-e6d6-4bf8-a56a-970609a28607"],
+ Cell[BoxData[
+  FormBox[" ", TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "335f9c48-9e5a-455e-af8d-8d01cad80a92"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"exp", 
+    RowBox[{"{", " ", 
+     FractionBox[
+      RowBox[{"-", "  ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[LeftBracketingBar]", 
+          RowBox[{"r", " ", "-", " ", 
+           SuperscriptBox["r", "\[VerticalLine]"]}], 
+          "\[RightBracketingBar]"}], " ", "+", " ", 
+         RowBox[{"2", " ", 
+          SubscriptBox["b", "\[PlusMinus]"], " ", 
+          RowBox[{"(", 
+           RowBox[{"z", " ", "-", " ", 
+            SuperscriptBox["z", "\[VerticalLine]"]}], ")"}], "t"}], "  ", "+",
+          " ", 
+         RowBox[{
+          SubscriptBox["b", "\[PlusMinus]"], 
+          SuperscriptBox["t", "2"]}], " ", "-", " ", 
+         RowBox[{"4", " ", 
+          SuperscriptBox[
+           SubscriptBox["a", 
+            RowBox[{"\[ImplicitPlus]", "\[PlusMinus]"}]], "2"], " ", 
+          SubscriptBox["\[Omega]", "H"], " ", 
+          SuperscriptBox["t", "2"]}]}], ")"}]}], 
+      RowBox[{"4", 
+       SuperscriptBox[
+        SubscriptBox["a", "\[PlusMinus]"], "2"], "   ", "t"}]], "}"}]}], 
+   TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "bd4611b1-17cc-4289-8151-ae62178f79a5"]
+}], "Text",
+ CellChangeTimes->{{3.758319867334982*^9, 3.758320159102166*^9}, {
+  3.758320263471402*^9, 3.7583204233666563`*^9}, {3.7583209202983103`*^9, 
+  3.758320983523945*^9}, {3.7583211656616497`*^9, 3.758321384715251*^9}, {
+  3.7583214533586473`*^9, 3.758321640607201*^9}, {3.7583216782668743`*^9, 
+  3.758321806755824*^9}},ExpressionUUID->"a91acad2-044e-46b6-853f-\
+33a869d9e3a0"],
+
+Cell["Magnetization without DMI ", "Subsection",
+ CellChangeTimes->{{3.7583191831812487`*^9, 3.75831921296419*^9}, {
+  3.758319265553484*^9, 3.7583192766446466`*^9}, {3.7583202014911623`*^9, 
+  3.758320201949648*^9}},ExpressionUUID->"e8d02266-0472-4435-b413-\
+58cd1ae10d35"]
+}, Open  ]]
+},
+WindowSize->{808, 621},
+WindowMargins->{{270, Automatic}, {Automatic, 35}},
+FrontEndVersion->"11.3 for Linux x86 (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 232, 4, 68, "Section",ExpressionUUID->"0912fa66-821f-4d6c-8ddc-761281741900"],
+Cell[815, 28, 1227, 35, 92, "Text",ExpressionUUID->"25c0bef3-8391-4c0f-9181-78e9d5abaee7"],
+Cell[2045, 65, 6261, 187, 340, "Text",ExpressionUUID->"a91acad2-044e-46b6-853f-33a869d9e3a0"],
+Cell[8309, 254, 274, 4, 55, "Subsection",ExpressionUUID->"e8d02266-0472-4435-b413-58cd1ae10d35"]
+}, Open  ]]
+}
+]
+*)
+

@@ -35,4 +35,4 @@ The propagator of this equation takes the following form,
 ![eq8](https://latex.codecogs.com/gif.latex?K_%7B%5Cinfty%7D%5E%7B3D%20%5Cpm%7D%20%28%5Cvec%7Br%7D%2C%5Cvec%7Br%7D%5E%7B%5Cprime%7D%3Bt%29%20%3D%20%5Cfrac%7B1%7D%7B8%20%28%5Cpi%20a_%7B%5Cpm%7D%5E%7B2%7D%20t%29%5E%7B3/2%7D%7D%20%5Cexp%5B-%20%5Cfrac%7BG%5E%7B3D%20%5Cpm%7D%28%5Cvec%7Br%7D%2C%5Cvec%7Br%7D%5E%7B%5Cprime%7D%3Bt%29%7D%7B4%20a_%7B%5Cpm%7D%5E2%20t%7D%5D)
 with
 
-![eq9](https://latex.codecogs.com/gif.latex?G%5E%7B3D%20%5Cpm%7D%28%5Cvec%7Br%7D%2C%5Cvec%7Br%7D%5E%7B%5Cprime%7D%3Bt%29%20%3D%20%7C%5Cvec%7Br%7D%20-%20%5Cvec%7Br%7D%5E%7B%5Cprime%7D%7C%5E2%20&plus;%202b_%7B%5Cpm%7D%28z-z%5E%5Cprime%29t%20&plus;%20b_%7B%5Cpm%7D%5E2%20t%5E2%20-%204a_%7B%5Cpm%7D%5E2%20t%5E2%20%5Comega_%7BH%7D%5E%7B%5Cpm%7D)
+![eq9](https://latex.codecogs.com/gif.latex?G%5E%7B3D%20%5Cpm%7D%28%5Cvec%7Br%7D%2C%5Cvec%7Br%7D%5E%7B%5Cprime%7D%3Bt%29%20%3D%20%7C%5Cvec%7Br%7D%20-%20%5Cvec%7Br%7D%5E%7B%5Cprime%7D%7C%5E2%20&plus;%202b_%7B%5Cpm%7D%28z-z%5E%5Cprime%29t%20&plus;%20b_%7B%5Cpm%7D%5E2%20t%5E2%20-%204a_%7B%5Cpm%7D%5E2%20t%5E2%20%5Comega_%7BH%7D%5E%7B%5Cpm%7D) 

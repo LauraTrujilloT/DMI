@@ -3,9 +3,8 @@ Research project involving Dzyaloshinskii-Moriya-Interaction (DMI) in magnetic m
 
 ## LLGB Formalism: Stationary Analysis
 The generalized continuity equation for diffusive spin current has a torque contribution ($\textbf{T} \sim \vec{\mu} \times \textbf{M}$) over the magnetization dynamics $\textbf{M}$ in a ferromagnet. Such dynamics is described by LLGB equation,
-```math
-SE = \frac{\sigma}{\sqrt{n}}
-```
+
+
 $$
 \begin{equation}
   \frac{\partial \textbf{M}}{\partial t} =
